@@ -24,7 +24,10 @@ justify-content: space-around ;
 .navbar-items-container{
     display:flex;
     margin-top:30px;
-    gap:25px;
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
 }
 .navbar{
     background-color: #007BFF;
@@ -42,6 +45,7 @@ justify-content: space-around ;
     font-size: 30px !important;
      font-family:'Goldman', cursive !important;
      padding-right:40vw;
+     display: inline-block;
 }
 .page-description{
 margin-top:5rem;
@@ -103,5 +107,13 @@ font-size: 20px;
     .image-container{
         justify-content: space-around;
         flex-wrap: wrap;
+    }
+    .navbar-container{
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+    }
+    .navbar-brand{
+        padding-right:0;
     }
 }

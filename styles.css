@@ -6,7 +6,33 @@
 body{
     background-color:#F8F9FA;
 }
-
+a{
+    color:white;
+}
+.navbar-container{
+    margin:auto;
+    position:fixed;
+    left:0;
+    right:0;
+    
+    z-index:999;
+background-color: #007BFF;
+width:100%;
+display: flex;
+justify-content: space-around ;
+}
+.navbar-items-container{
+    display:flex;
+    margin-top:30px;
+    gap:25px;
+}
+.navbar{
+    background-color: #007BFF;
+}
+.navbar-item{
+    display: inline;
+    font-size: 20px;
+}
 .container{
     max-width:1400px;
     margin:auto;
@@ -72,4 +98,10 @@ font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media screen and (max-width:990px){
+    .image-container{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 }

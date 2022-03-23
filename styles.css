@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+body{
+    background-color:#F8F9FA;
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+   
+}
+.navbar-brand{
+    font-size: 30px !important;
+     font-family:'Goldman', cursive !important;
+     padding-right:40vw;
+}
+.page-description{
+margin-top:5rem;
+font-size: 20px;
+}
+
+.image-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content-description{
+    margin-top:5rem;
+}
+#home{
+    min-height:100vh;
+    padding-top:10rem;
+}
+.card-container{
+  min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    flex-wrap: wrap;
+}
+.card-image{
+    height:200px;
+}
+.card{
+    min-height:552px;
+}
+.courses-header{
+    text-align: center;
+    color:#007BFF;
+}
+
+.contact-container{
+    background-color: #007BFF;
+    height:80vh;
+    width:100%;
+    color:white !important;
+    text-align: center;
+    padding:100px;
+}
+
+.mobile-numbers{
+    margin-top:5rem;
+}
+
+#contact{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
